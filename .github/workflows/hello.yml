@@ -12,4 +12,8 @@ jobs:
       - name: Echo the message
         run: |
           echo "Hola Juan!"
+      - name: Colombia Hour
+        run: date
+      - name: Files inside machine
+        run: ls -l
 
